@@ -46,7 +46,7 @@ cd challenge-sprint-3-python
 
 2. Configuração Inicial e Migração de Dados (Sprint 2 para Sprint 3)
 
-1. Inicializar o Banco de Dados (Criar Schema)Inicializar o Banco de Dados (Criar Schema)
+1. Inicializar o Banco de Dados (Criar Schema)
 
    Antes de rodar o sistema, é necessário criar o arquivo do banco de dados SQLite e as tabelas.
 
@@ -125,6 +125,7 @@ Ao iniciar o cli.py, você será apresentado à tela de login e, em seguida, ao 
 > **Observação:**  
 > O JSON utilizado em versões anteriores do sistema não é compatível diretamente com a nova arquitetura de tabelas do SQLite nesta Sprint 3.  
 > Entretanto, ele pode ser utilizado normalmente dentro da **função de migração**, que converte os dados antigos para o novo esquema do banco de dados.
+
 
 
 
