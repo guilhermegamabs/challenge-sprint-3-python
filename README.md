@@ -40,7 +40,7 @@ O sistema é totalmente baseado em **Python**, utilizando SQLite como banco de d
 1. **Clone o repositório** ou baixe o ZIP do projeto:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/guilhermegamabs/challenge-sprint-3-python.git
 cd challenge-sprint-3-python
 ```
 
@@ -125,6 +125,7 @@ Ao iniciar o cli.py, você será apresentado à tela de login e, em seguida, ao 
 > **Observação:**  
 > O JSON utilizado em versões anteriores do sistema não é compatível diretamente com a nova arquitetura de tabelas do SQLite nesta Sprint 3.  
 > Entretanto, ele pode ser utilizado normalmente dentro da **função de migração**, que converte os dados antigos para o novo esquema do banco de dados.
+
 
 
 
